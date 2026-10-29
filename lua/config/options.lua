@@ -20,3 +20,8 @@ vim.opt.clipboard = ""
 
 -- Inlay hints (Enabled by default in LazyVim)
 vim.lsp.inlay_hint.enable(true)
+
+-- Warp & line break
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.breakindent = true
