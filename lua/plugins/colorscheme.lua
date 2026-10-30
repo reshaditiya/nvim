@@ -5,6 +5,7 @@ return {
     priority = 1000,
     opts = {
       flavour = "frappe", -- latte, frappe, macchiato, mocha
+      no_italic = true,
       transparent_background = false,
       custom_highlights = function(colors)
         return {
