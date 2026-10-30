@@ -25,3 +25,6 @@ vim.lsp.inlay_hint.enable(true)
 vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.breakindent = true
+
+-- Disable animation
+vim.g.snacks_animate = false
