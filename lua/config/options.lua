@@ -15,9 +15,6 @@ vim.opt.expandtab = true
 vim.opt.scrolloff = 7
 vim.opt.wrap = true
 
--- Clipboard (Set to never use system clipboard, matching Zed settings)
-vim.opt.clipboard = ""
-
 -- Inlay hints (Enabled by default in LazyVim)
 vim.lsp.inlay_hint.enable(true)
 
