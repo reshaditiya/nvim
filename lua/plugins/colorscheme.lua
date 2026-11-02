@@ -4,7 +4,7 @@ return {
     name = "catppuccin",
     priority = 1000,
     opts = {
-      flavour = "frappe", -- latte, frappe, macchiato, mocha
+      flavour = "macchiato", -- latte, frappe, macchiato, mocha
       no_italic = true,
       transparent_background = false,
       custom_highlights = function(colors)
@@ -32,7 +32,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe",
+      colorscheme = "catppuccin-macchiato",
     },
   },
 }
