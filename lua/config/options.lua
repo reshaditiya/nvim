@@ -28,6 +28,3 @@ vim.opt.breakindent = true
 
 -- Disable animation
 vim.g.snacks_animate = false
-
--- Disable auto format
-vim.g.autoformat = false
