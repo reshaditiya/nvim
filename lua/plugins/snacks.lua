@@ -3,6 +3,7 @@ return {
   opts = {
     picker = {
       sources = {
+        -- Show hidden/ignored files intentionally (includes node_modules/.env etc.)
         files = {
           hidden = true,
           ignored = true,

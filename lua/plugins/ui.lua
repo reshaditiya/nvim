@@ -7,15 +7,6 @@ return {
     },
   },
 
-  -- Scope-aware indent guide coloring (Matches indent_aware)
-  {
-    "nvim-mini/mini.indentscope",
-    opts = {
-      symbol = "│",
-      options = { try_as_border = true },
-    },
-  },
-
   -- Sticky Scroll (Matches sticky_scroll: { enabled: true })
   {
     "nvim-treesitter/nvim-treesitter-context",

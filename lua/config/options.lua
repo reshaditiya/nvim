@@ -2,29 +2,14 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
--- Line numbers
-vim.opt.relativenumber = true
-vim.opt.number = true
-
--- Tabs & Indentation
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.expandtab = true
-
--- Scrolling & Wrapping
+-- Scrolling & Wrapping (LazyVim defaults: number, relativenumber, tabstop/shiftwidth=2, expandtab)
 vim.opt.scrolloff = 7
-vim.opt.wrap = true
-
--- Clipboard (Set to never use system clipboard, matching Zed settings)
-vim.opt.clipboard = ""
-
--- Inlay hints (Enabled by default in LazyVim)
-vim.lsp.inlay_hint.enable(true)
-
--- Warp & line break
 vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.breakindent = true
 
--- Disable animation
+-- Clipboard (Set to never use system clipboard, matching Zed settings)
+vim.opt.clipboard = ""
+
+-- Disable animation (LazyVim defaults to true)
 vim.g.snacks_animate = false

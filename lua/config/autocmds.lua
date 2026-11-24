@@ -9,7 +9,7 @@
 
 vim.api.nvim_create_autocmd("FileType", {
   group = vim.api.nvim_create_augroup("SearchReplaceLineNumbers", { clear = true }),
-  pattern = { "grug-far", "spectre_panel" },
+  pattern = "grug-far",
   callback = function()
     vim.opt_local.number = true
     vim.opt_local.relativenumber = true
