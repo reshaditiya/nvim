@@ -11,5 +11,9 @@ vim.opt.breakindent = true
 -- Clipboard (Set to never use system clipboard, matching Zed settings)
 vim.opt.clipboard = ""
 
+-- Prettier is the formatter (see lua/plugins/tools.lua); eslint LSP
+-- should not format too (would double-format with prettier).
+vim.g.lazyvim_eslint_auto_format = false
+
 -- Disable animation (LazyVim defaults to true)
 vim.g.snacks_animate = false
